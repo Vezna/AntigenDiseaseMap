@@ -109,7 +109,7 @@ void drag_and_drop() {
   
 }
 void loadNemoci() {
-  String[] lines = loadStrings("C:/Users/vezna/Desktop/Testline30_7/Processing/antigen_disease0_4/nemoci.txt");
+  String[] lines = loadStrings("nemoci.txt");
   for (int i = 0 ; i < lines.length; i++) {
     nemoci.add(new nemoc(lines[i]));
   }
